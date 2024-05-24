@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style TargetType="TextBlock" x:Key="TextBlock1">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="25"/>
+        <Setter Property="FontWeight" Value="Medium"/>
+        <Setter Property="FontFamily" Value="Montserrant"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+    </Style>
+    <Style TargetType="TextBlock" >
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="17"/>
+        <Setter Property="FontWeight" Value="Medium"/>
+        <Setter Property="FontFamily" Value="Montserrant"/>
+        <Setter Property="Margin" Value="0,35,0,0"/>
+
+
+    </Style>
+
+    <Style TargetType="TextBlock" x:Key="mobileDetails">
+    <Setter Property="Foreground" Value="White"/>
+    <Setter Property="FontSize" Value="16"/>
+    <Setter Property="FontWeight" Value="Medium"/>
+    <Setter Property="FontFamily" Value="Montserrant"/>
+    <Setter Property="Margin" Value="0,15,0,0"/>
+
+
+    </Style>
+    <Style TargetType="TextBlock" x:Key="addObjects">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontWeight" Value="Medium"/>
+        <Setter Property="FontFamily" Value="Montserrant"/>
+        <Setter Property="Margin" Value="0,12,0,0"/>
+
+
+    </Style>
+
+</ResourceDictionary>

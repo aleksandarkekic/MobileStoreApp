@@ -1,0 +1,78 @@
+﻿<Page x:Class="MobileShop.Pages.Page5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MobileShop.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page5">
+
+    <Grid Background="#717171">
+        <StackPanel Margin="50,50,50,50">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource addObjects}" Text="Ime korisnika: "/>
+                <TextBox
+                        x:Name="name"
+                        Style="{StaticResource add}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource addObjects}" Text="Prezime korisnika: "/>
+                <TextBox
+                        x:Name="surname"
+                        Style="{StaticResource add}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource addObjects}" Text="Lozinka: "/>
+                <PasswordBox
+                        x:Name="password"
+                        Style="{StaticResource addPass}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource addObjects}" Text="Korisnicko ime: "/>
+                <TextBox
+                        x:Name="username"
+                        Style="{StaticResource add}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource addObjects}" Text="Uloga: "/>
+                <TextBox
+                        x:Name="role"
+                        Style="{StaticResource add}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource addObjects}" Text="Adresa: "/>
+            </StackPanel>
+            <StackPanel Margin="30,0,0,0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{StaticResource addObjects}" Text="Grad: "/>
+                    <TextBox
+                        x:Name="town"
+                        Style="{StaticResource add}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{StaticResource addObjects}" Text="Postanski broj: "/>
+                    <TextBox
+                        x:Name="posta"
+                        Style="{StaticResource add}"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{StaticResource addObjects}" Text="Naziv ulice: "/>
+                    <TextBox
+                        x:Name="street"
+                        Style="{StaticResource add}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{StaticResource addObjects}" Text="Broj ulice: "/>
+                    <TextBox
+                        x:Name="streetNumb"
+                        Style="{StaticResource add}"/>
+                </StackPanel>
+                <Button x:Name="btn_add" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"   Foreground="black" BorderBrush="Green" Height="30" Width="100"  FontFamily="Montserrant"  Cursor="Hand"  BorderThickness="2" FontSize="8" Click="btn_add_Click" Margin="0,0,0,0">
+                    <TextBlock Text="Dodaj" Margin="0,-1,0,0" FontSize="13" Foreground="black"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
